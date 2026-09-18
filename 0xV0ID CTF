@@ -1,0 +1,39 @@
+0xV0ID CTF
+Flag Format: 0xV01D{...}
+
+Transmission
+Zip file: Transmission.zip 
+Convert zip hash: zip2john Transmission.zip > hash.txt 
+Crack hash password: whatever1 
+Rename unknown.unknown to 1.wav - wave file Open 1.wav in sonic visualiser, add Spectrogram. 
+Flag: 0xV01D{h1dd3n_1n_th3_sp3ctr0}
+
+FirstStep
+File: beginner.zip 
+cipher.txt: 723a147273063915710e01720f711d16721d0116043f 
+hex key: 42 
+Flag: 0xV01D{W3LC0M3_T0_CTF}
+
+ShiftCrypt
+4-byte keyword cipher — each plaintext byte is shifted by the corresponding key byte (mod 256).
+
+Acrostic
+Forgotten echoes drift through the network at midnight. 
+Invisibly, packets cross the wire unseen. 
+Routing tables shift and reshape the data paths. 
+Silence fills the void between each transmission. 
+Time stamps record every byte that passes. 
+Signals propagate at the speed of light. 
+Topology defines how nodes find each other. 
+Encryption wraps the payload in darkness. 
+Persistence is the key to every challenge.
+Flag: 0xV01D{FIRSTSTEP}
+
+Directive
+URL: http://35.192.106.100:21002/ 
+gobuster dir -w /usr/share/dirb/wordlists/common.txt -u http://35.192.106.100:21002/
+
+NULLSTAR // BREACH
+At 02:11 local, the IDS on the NULLSTAR perimeter admin:S3cr3t_P4ss!
+$DB_PASS='Vau1t_K3y_9f3a'; $DB_NAME='0xv0id_app';
+0xV01D{1_R34D3D_7H3_D35CR1P710N}
