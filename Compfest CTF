@@ -1,0 +1,11 @@
+Compfest CTF
+Flag Format: COMPFEST18{welcome_to_compfest18_have_fun_and_try_not_to_get_banned}
+NMAP: 7000/tcp filtered afs3-fileserver 
+Sus Files: public.pcap
+pcap - f7af3e0785e01d133a29c8b2f0d73c69df8cb76a1d830bb7518f8b63e87b47f7 
+public.7z - 7z - c027447dad0dcc9f2efd006313ecb50a00b182104ed7b82e50aa1a6544c1e6b4 
+private.676767 - zip - c12f35cfd72ebe0088b173092cbea67111c5e3e955c2bdda5dad4d42471aa053 
+video.enc - data - fdc78bd4b0df0ff55d71ed8ee8c49ab9d4e34873497708e9586dc78383d4356b
+1.	Victim IP: 192.168.100.10
+2.	Versioning artifact: 5.1.26100.8521
+3.	4 bytes (magic bytes) in hex: 5c-78-61-64
